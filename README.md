@@ -33,6 +33,8 @@ Implemented the distance metrics for histogram comparison. Hi(j)
 denotes the number of pixels in jth bin for the ith image. Then the difference between
 the i
 th image and kth image can be given by the following distance metric:
+
 ![image](https://github.com/tampalloor/Content-Based-Image-Retrieval-System/assets/63935525/6c81b332-7cbe-4c7c-8cf9-c42b61609ab8)
+
 where Mi*Ni is the number of pixels in image i, and Mk*Nk is the number of pixels in
 image k.
